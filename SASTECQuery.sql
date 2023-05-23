@@ -8,3 +8,7 @@ CREATE TABLE TBcliente(
 );
 
 INSERT INTO TBcliente (NomeCli, EmailCli) VALUES ('Fernanda','fernanda@gmail.com');
+
+UPDATE TBcliente SET NomeCli='Fernanda Rocha' WHERE IdCli = 1;
+
+SELECT * FROM TBcliente;
